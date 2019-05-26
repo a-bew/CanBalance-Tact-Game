@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* General */
+.clear-fix{
+	clear: both;
+}
+body{
+	text-align: center;
+}
+
+.container{
+  margin: auto;
+  width: 80%;
+  background-color: #aaa;
+}
+
+hr{
+	margin: 20px 10px 10px;
+}
+
+main{
+	background-color: orange;
+	overflow: hidden;
+}
+
+main .board-number{
+	float: left;
+	margin: 20px;
+}
+
+main .board-score{
+    float: right;
+}
+
+main.game-board div.challange-board{
+	background-color: orange;
+}
+
+main span.number-cell{
+	width: 50px;
+	height: 50px;
+	padding: 0px 20px;
+	margin: 10px;
+	background-color: green;
+	border: solid 2px gray;	
+	font-size: 3em;
+}
+
+main .board-score{
+	width: 100px;
+	height: 100px;
+	padding: 25px;
+	margin: 25px;
+	background-color: green;
+	border: dotted 20px gray;
+}
+
+main div.scoreMe-text{
+	font-size: 3em;
+	color: #fff;
+}
+
+main .user-space{
+	padding:20px;
+}
+
+main p{
+	font-size: 0.7em;
+	font-weight: italic;
+	text-align: left;
+	padding: 0 20px;
+	
+	margin: 0 15px;
+}
+main p span{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1em;
+
+}
+main input[type="text"]{
+	width: 50px;
+	height: 50px;
+	font-size: 1.8em;
+}
+main label{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+main input, label{
+	padding-right: 18px;
+	margin-right: 10px;
+}
+main input[type="button"]{
+	height: 50px;
+	font-size: 1.5em;
+	padding: 10px;
+	background-color: #aaa;
+	font-weight: bold;
+}
+
+
+main input[type="button"]:hover{
+	background-color: green;
+		font-weight: bold;
+		color: #fff;
+}
+
+main .user-space{
+	text-align: left;
+}
